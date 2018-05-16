@@ -13,15 +13,12 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
-.row {
-	max-width: 1140px;
-	margin: 0 auto;
-}
 
 /* NAVBAR */
 nav {
 	background-color: orange;
 	color: white;
+	padding: 25px;
 }
 
 .logo {
@@ -48,42 +45,40 @@ nav {
 }
 
 
-/* SEARCH BAR */
+ /* SEARCHBAR */
 .search-bar {
 	float: right;
 	margin-right: 5%;
+	margin-top: 10px;
+	border: 1px solid lightgrey;
 }
 
 .search-bar input {
+	background-color: light;
 	padding: 20px;
 	width: 300px
 }
 
 
 /* MAIN SECTION */
-main-section {
-	text-align: center;
-}
+.main-section { padding: 0 auto; }
+
 .hero-image {
 	background-image: url(img/orange.jpg);
 	background-repeat: no-repeat;
-	height: 100vh;
+	height: 400px;
 	width: 100%;
-	margin: 0;
 }
 
 .hero-text-box {
-	display: inline-block;
-	height: 100vh;
 	width: 100%;
-	margin: 0;
+	margin: 0 auto;
+	padding: 10px;
 }
+
+h1 { font-weight: 100; }
 
 /* BUTTONS */
-.button-section {
-	text-align: center;
-}
-
 .btn {
 	display: inline-block;
 	padding: 10px 30px;
@@ -92,6 +87,7 @@ main-section {
 	border-radius: 8px;
 	padding: 25px;
 	color: white;
+	text-align: center
 }
 
 .btn-1 {
@@ -101,12 +97,36 @@ main-section {
 
 .btn-2 {
 	background-color: lightblue;
-	margin-left: 8%;
+	margin-left: 30px;
 }
 
 /* FOOTER */
+
 footer {
 	background-color: lightblue;
 	height: 100px;
 	width: 100%;
 }
+
+/* TEXT */
+.orange {
+	font-weight: bold;
+}
+
+.web,
+.app {
+	color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
