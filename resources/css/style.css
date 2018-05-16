@@ -6,7 +6,7 @@
 
 html {
 	background-color: #fff;
-	color: rgba(203, 129, 29, 0.95);
+	color: orange;
 	font-family: 'Lato', 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
@@ -16,4 +16,97 @@ html {
 .row {
 	max-width: 1140px;
 	margin: 0 auto;
+}
+
+/* NAVBAR */
+nav {
+	background-color: orange;
+	color: white;
+}
+
+.logo {
+	margin: 20px;
+	width: auto;
+	float: left;
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin: 30px;
+}
+
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav a {
+	color: white;
+	text-decoration: none;
+}
+
+
+/* SEARCH BAR */
+.search-bar {
+	float: right;
+	margin-right: 5%;
+}
+
+.search-bar input {
+	padding: 20px;
+	width: 300px
+}
+
+
+/* MAIN SECTION */
+main-section {
+	text-align: center;
+}
+.hero-image {
+	background-image: url(img/orange.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+}
+
+.hero-text-box {
+	display: inline-block;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+}
+
+/* BUTTONS */
+.button-section {
+	text-align: center;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 8px;
+	padding: 25px;
+	color: white;
+}
+
+.btn-1 {
+	background-color: orange;
+	width: 250px;
+	}
+
+.btn-2 {
+	background-color: lightblue;
+	margin-left: 8%;
+}
+
+/* FOOTER */
+footer {
+	background-color: lightblue;
+	height: 100px;
+	width: 100%;
 }
