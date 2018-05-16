@@ -21,6 +21,10 @@ nav {
 	padding: 25px;
 }
 
+.fa-adjust:before {
+	padding-right: 2px;
+}
+	
 .logo {
 	margin: 20px;
 	width: auto;
@@ -49,7 +53,7 @@ nav {
 .search-bar {
 	float: right;
 	margin-right: 5%;
-	margin-top: 10px;
+	margin-top: 15px;
 	border: 1px solid lightgrey;
 }
 
@@ -59,9 +63,8 @@ nav {
 	width: 300px
 }
 
-
 /* MAIN SECTION */
-.main-section { padding: 0 auto; }
+.main-section { padding: 7%; }
 
 .hero-image {
 	background-image: url(img/orange.jpg);
@@ -71,12 +74,38 @@ nav {
 }
 
 .hero-text-box {
-	width: 100%;
+	width: 110%;
 	margin: 0 auto;
 	padding: 10px;
+	font-size: 20px;
 }
 
 h1 { font-weight: 100; }
+
+
+/* FOOTER */
+footer {
+	background-color: lightblue;
+	height: 120px;
+	width: 100%;
+	text-align: center
+}
+
+footer h2 {
+	padding-top: 40px;
+	color: white;
+	font-weight: 100;
+}
+
+
+/* TEXT */
+.orange { font-weight: bold; }
+
+.web,
+.app { color: lightblue; }
+
+.juice { font-weight: 100; }
+
 
 /* BUTTONS */
 .btn {
@@ -92,33 +121,13 @@ h1 { font-weight: 100; }
 
 .btn-1 {
 	background-color: orange;
-	width: 250px;
+	width: 220px;
 	}
 
 .btn-2 {
 	background-color: lightblue;
-	margin-left: 30px;
+	margin-left: 25px;
 }
-
-/* FOOTER */
-
-footer {
-	background-color: lightblue;
-	height: 100px;
-	width: 100%;
-}
-
-/* TEXT */
-.orange {
-	font-weight: bold;
-}
-
-.web,
-.app {
-	color: lightblue;
-}
-
-
 
 
 
