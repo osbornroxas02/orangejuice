@@ -14,7 +14,7 @@ html {
 }
 
 
-/* NAVBAR */
+/* ---- NAVBAR --- */
 nav {
 	background-color: orange;
 	color: white;
@@ -37,7 +37,6 @@ nav {
 	margin: 30px;
 }
 
-
 .main-nav li {
 	display: inline-block;
 	margin-left: 40px;
@@ -49,7 +48,7 @@ nav {
 }
 
 
- /* SEARCHBAR */
+ /* --- SEARCHBAR --- */
 .search-bar {
 	float: right;
 	margin-right: 5%;
@@ -58,12 +57,22 @@ nav {
 }
 
 .search-bar input {
-	background-color: light;
 	padding: 20px;
 	width: 300px
 }
 
-/* MAIN SECTION */
+.search-query {
+	border:1px solid lightblue;
+	
+}
+.search-query:hover,
+.search-query:active,
+.search-query:visited {
+	border: 1px solid lightblue;
+	background-color: whitesmoke;
+}
+
+/* --- MAIN SECTION --- */
 .main-section { padding: 7%; }
 
 .hero-image {
@@ -83,7 +92,7 @@ nav {
 h1 { font-weight: 100; }
 
 
-/* FOOTER */
+/* --- FOOTER --- */
 footer {
 	background-color: lightblue;
 	height: 120px;
@@ -92,13 +101,13 @@ footer {
 }
 
 footer h2 {
-	padding-top: 40px;
+	padding-top: 35px;
 	color: white;
 	font-weight: 100;
 }
 
 
-/* TEXT */
+/* --- TEXT --- */
 .orange { font-weight: bold; }
 
 .web,
@@ -107,7 +116,7 @@ footer h2 {
 .juice { font-weight: 100; }
 
 
-/* BUTTONS */
+/* --- BUTTONS --- */
 .btn {
 	background-color: orange;
 	font-size: 20px;
@@ -131,7 +140,48 @@ footer h2 {
 	margin-left: 35px;
 }
 
+.btn:link,
+.btn:visited {
+	border: 2px solid transparent;
+	-webkit-transition: border-bottom 0.2s, color 0.2s; 
+	transition: border-bottom 0.2s, color 0.2s; 
+}/*state in rest*/
 
+.btn-1:hover,
+.btn-1:active {
+    text-decoration: none;
+	background-color: darkorange;
+	border-bottom: 5px solid darkorange;
+	box-shadow: 5px 10px 8px darkgrey;
+	text-shadow: 2px 2px 4px darkgrey;
+}
+
+.btn-2:hover,
+.btn-2:active {
+	background-color: cornflowerblue;
+	font-weight: 400;
+	border-bottom: 5px solid cornflowerblue;
+	box-shadow: 5px 10px 8px darkgrey;
+	text-shadow: 2px 2px 4px darkgrey;
+}
+
+
+/* --- LINKS --- */
+.links:link,
+.links:visited { 
+	border-bottom: 2px solid transparent;
+	-webkit-transition: border-bottom 0.2s, color 0.2s; 
+	transition: border-bottom 0.2s, color 0.2s; 
+}/*state in rest */
+
+.links:hover,
+.link:active {
+    text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 400;
+	padding-bottom: 10px;
+    border-bottom: 3px solid white;	
+}
 
 
 
