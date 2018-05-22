@@ -73,7 +73,7 @@ nav {
 }
 
 /* --- MAIN SECTION --- */
-.main-section { padding: 7%; }
+.main-section { padding: 4%; }
 
 .hero-image {
 	background-image: url(img/orange.jpg);
@@ -90,6 +90,9 @@ nav {
 }
 
 h1 { font-weight: 100; }
+
+.span-1-of-2 { width: 50%; }
+.span-2-of-2 { width: 50%; }
 
 
 /* --- FOOTER --- */
@@ -182,12 +185,3 @@ footer h2 {
 	padding-bottom: 10px;
     border-bottom: 3px solid white;	
 }
-
-
-
-
-
-
-
-
-
